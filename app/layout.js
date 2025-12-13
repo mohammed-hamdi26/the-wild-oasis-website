@@ -14,6 +14,8 @@ export const metadata = {
     template: "%s | the wild oasis",
     default: "welcome | the wild oasis",
   },
+  manifest: "/manifest.json",
+  themeColor: "#black",
   description:
     "Luxurious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautiful mountains and dart forests",
 };

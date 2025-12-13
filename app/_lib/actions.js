@@ -40,6 +40,7 @@ export async function updateReservation(formData) {
     throw new Error("Booking could not be updated");
   }
 
+  revalidatePath(`account/reservations/edit/${reservationId}`);
   redirect("/account/reservations");
 }
 
